@@ -1,0 +1,6 @@
+<p>obsolescence-report works!</p>
+<ul>
+    <li *ngFor="let gscApplication of gscApplications$ | async">
+        Name: {{gscApplication.name}} (ID: {{gscApplication.id}})
+    </li>
+</ul>
