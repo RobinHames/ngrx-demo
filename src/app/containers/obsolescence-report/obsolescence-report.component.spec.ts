@@ -8,7 +8,7 @@ describe('ObsolescenceReportComponent', () => {
   let fixture: ComponentFixture<ObsolescenceReportComponent>;
   let store: Store<any>;
 
-  beforeEach(async() => {
+  beforeEach(async () => {
     TestBed.configureTestingModule({
       imports: [ StoreModule.forRoot({}) ],
       declarations: [ ObsolescenceReportComponent ]
